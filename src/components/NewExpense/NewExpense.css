@@ -1,0 +1,56 @@
+.new_expense {
+    background-color: #461959;
+    width: 50rem;
+    min-height: 14rem;
+    margin: 35px auto;
+    border-radius: 1rem;
+}
+
+.expense-form {
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+}
+
+
+.expense-form-field {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.expense-form-field input {
+    width: 20rem;
+    height: 2.5rem;
+    font-size: 1.15rem;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.expense-form-field label {
+    margin: 10px;
+    color: white;
+}
+
+
+.form-button button {
+    opacity: 0.75;
+    background-color: #322653;
+    color: white;
+    width: 8rem;
+    height: 3.5rem;
+    border-radius: 10px;
+    border: 1px white solid;
+    font-size: 1rem;
+}
+.form-button button:hover{
+    cursor: pointer;
+    opacity: 1;
+}

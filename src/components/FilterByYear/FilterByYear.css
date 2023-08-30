@@ -1,0 +1,19 @@
+.filter-items {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.filter-items p {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    color: white;
+}
+
+select {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    text-align: center;
+}
